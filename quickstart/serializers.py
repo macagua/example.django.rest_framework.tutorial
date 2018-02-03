@@ -2,7 +2,7 @@
 
 from django.contrib.auth.models import User, Group
 from django.core.mail import send_mail
-from quickstart.models import Comment, Event, ROOM_NUMBER
+from quickstart.models import Comment, Event
 from rest_framework import serializers
 from rest_framework.validators import UniqueTogetherValidator
 

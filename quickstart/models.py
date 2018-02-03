@@ -5,18 +5,6 @@ from __future__ import unicode_literals
 from django.db import models
 from datetime import datetime
 
-# Event's room numbers
-ROOM1 = 101
-ROOM2 = 102
-ROOM3 = 102
-ROOM4 = 201
-ROOM_NUMBER = (
-    (ROOM1, "101"),
-    (ROOM2, "102"),
-    (ROOM3, "103"),
-    (ROOM4, "201"),
-)
-
 
 class BlogPost(models.Model):
     title = models.CharField(max_length=1000, help_text="Enter the post's title.")
@@ -58,6 +46,19 @@ class Comment(models.Model):
 
 
 class Event(models.Model):
+
+    # Event's room numbers
+    ROOM1 = 101
+    ROOM2 = 102
+    ROOM3 = 102
+    ROOM4 = 201
+    ROOM_NUMBER = (
+        (ROOM1, "101"),
+        (ROOM2, "102"),
+        (ROOM3, "103"),
+        (ROOM4, "201"),
+    )
+
     name = models.CharField(max_length=100,
         help_text="Enter the event's name.")
     description = models.CharField(max_length=100,
