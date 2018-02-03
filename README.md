@@ -84,7 +84,7 @@ $ curl -H 'Accept: application/json; indent=4' -u admin:password123 http://127.0
 For testing the **groups** API Rest, please execute the following command:
 
 ```bash
-$ curl -H 'Accept: application/json; indent=4' -u admin:password123 htp://127.0.0.1:8000/groups/
+$ curl -H 'Accept: application/json; indent=4' -u admin:password123 http://127.0.0.1:8000/groups/
 [
     {
         "url": "http://127.0.0.1:8000/groups/1/",
@@ -130,7 +130,7 @@ $ curl -H 'Accept: application/json; indent=4' -u admin:password123 http://127.0
 For testing the **blog post** API Rest, please execute the following command:
 
 ```bash
-$ curl -H 'Accept: application/json; indent=4' -u admin:password123 htp://127.0.0.1:8000/blog-post/
+$ curl -H 'Accept: application/json; indent=4' -u admin:password123 http://127.0.0.1:8000/blog-post/
 [
     {
         "title": "Django project will be release a new version soon",
