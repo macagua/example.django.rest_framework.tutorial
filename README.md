@@ -168,7 +168,7 @@ $ curl -H 'Accept: application/json; indent=4' -u admin:password123 http://127.0
 ]
 ```
 
-## Django Interactive ConsCelebration of the fall of the dictatorship of Socialism of the 21st century
+## Django Interactive Console
 For make some practices the Django ORM, please execute the following command:
 
 ```bash
