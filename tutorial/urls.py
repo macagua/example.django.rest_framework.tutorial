@@ -21,6 +21,9 @@ from rest_framework import routers
 from quickstart import views
 
 router = routers.DefaultRouter()
+router.register(r'comments', views.CommentViewSet)
+router.register(r'blog-post', views.BlogPostViewSet)
+router.register(r'events', views.EventViewSet)
 router.register(r'users', views.UserViewSet)
 router.register(r'groups', views.GroupViewSet)
 
