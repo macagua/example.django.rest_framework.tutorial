@@ -45,7 +45,7 @@ $ python manage.py runserver
 
 ### Testing the API
 
-You have 2 API Rest for testing, now access to the APIs, both from the command-line, using tools like **curl**, please execute the following command:
+You have many APIs Rest for testing, now access to the APIs, both from the command-line, using tools like **curl**, please execute the following command:
 
 #### Users endpoint
 
