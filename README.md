@@ -1,6 +1,10 @@
 # django_rest_framework_tutorial
 
-My practices about [Django 1.9 Project tutorial](https://docs.djangoproject.com/en/1.9/intro/) and [Django Rest Framework 3.6.4 tutorial Quickstart](http://www.django-rest-framework.org/tutorial/quickstart/).
+My practices about the following tutorials:
+
+- [Django 1.9 Project tutorial](https://docs.djangoproject.com/en/1.9/intro/).
+- [Django Rest Framework 3.6.4 tutorial Quickstart](http://www.django-rest-framework.org/tutorial/quickstart/).
+- [Desarrollo de un API REST con Django REST framework, tutorial 1: Serialización](http://jonathanpumares.com/desarrollo-de-un-api-rest-con-django-rest-framework-tutorial-1-serializacion/).
 
 ## Installation
 
@@ -42,6 +46,14 @@ $ python manage.py runserver
 - Open your web browser with the following URL: [http://0.0.0.0:8000/admin/](http://0.0.0.0:8000/admin/) and see the Django Admin Interface, use the user **admin** and password **password123**.
 
 **Tip:** PLEASE add two **groups**, two **users** and later add a user into a group.
+
+### Quickstart App
+
+For add data for *Quickstart* App, please access to the following URL: [http://localhost:8000/admin/quickstart/](http://localhost:8000/admin/quickstart/)
+
+### Snippets App
+
+For add data for *Snippets* App, please access to the following URL: [http://localhost:8000/admin/snippets/](http://localhost:8000/admin/snippets/)
 
 ### Testing the API
 
@@ -166,6 +178,24 @@ $ curl -H 'Accept: application/json; indent=4' -u admin:password123 http://127.0
         "created": "2018-02-03T19:21:33Z"
     }
 ]
+```
+
+#### Snippets list endpoint
+
+For testing the **snippets list** API Rest, please execute the following command:
+
+```bash
+$ curl -H 'Accept: application/json; indent=4' -u admin:password123 http://localhost:8000/snippets/list/
+[{"id":1,"title":"","code":"foo = \"bar\"\n","linenos":false,"language":"python","style":"friendly"},{"id":2,"title":"","code":"print \"hello, world\"\n","linenos":false,"language":"python","style":"friendly"},{"id":3,"title":"","code":"print \"hello, world\"","linenos":false,"language":"python","style":"friendly"}]
+```
+
+#### Snippets detail endpoint
+
+For testing the **snippets detail** API Rest, please execute the following command:
+
+```bash
+$ curl -H 'Accept: application/json; indent=4' -u admin:password123 http://localhost:8000/snippets/detail/1/
+{"id":1,"title":"","code":"foo = \"bar\"\n","linenos":false,"language":"python","style":"friendly"}
 ```
 
 ## Django Interactive Console
@@ -317,3 +347,4 @@ ValidationError: {'email': [u'Enter a valid email address.'], 'created': [u'This
 
 - [Django 1.9 Project tutorial](https://docs.djangoproject.com/en/1.9/intro/).
 - [Django Rest Framework 3.6.4 tutorial Quickstart](http://www.django-rest-framework.org/tutorial/quickstart/).
+- [Desarrollo de un API REST con Django REST framework, tutorial 1: Serialización](http://jonathanpumares.com/desarrollo-de-un-api-rest-con-django-rest-framework-tutorial-1-serializacion/).
