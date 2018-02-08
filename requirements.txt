@@ -1,0 +1,14 @@
+Django==1.9.11
+
+# Django Rest Framework
+certifi==2018.1.18
+chardet==3.0.4
+djangorestframework==3.6.4
+django-filter==1.1.0
+Markdown==2.6.11
+httpie==0.9.9
+idna==2.6
+Pillow==5.0.0
+Pygments==2.2.0
+requests==2.18.4
+urllib3==1.22
