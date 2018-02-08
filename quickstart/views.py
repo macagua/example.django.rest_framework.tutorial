@@ -6,7 +6,6 @@ from quickstart.models import BlogPost, Comment, Event
 from quickstart.serializers import CommentSerializer, BlogPostSerializer, EventSerializer, UserSerializer, GroupSerializer
 
 
-
 class BlogPostViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows Blog posts to be viewed or edited.
