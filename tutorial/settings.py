@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'quickstart.apps.QuickstartConfig',
-    'snippets',
+    'snippets.apps.SnippetsConfig',
 ]
 
 MIDDLEWARE_CLASSES = [
