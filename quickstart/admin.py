@@ -9,6 +9,7 @@ class CommentAdmin(admin.ModelAdmin):
     list_filter = ['email', 'created']
     search_fields = ['content']
 
+
 class EventAdmin(admin.ModelAdmin):
     list_display = ('name', 'description', 'start_date', 'finish_date')
     list_filter = ['start_date', 'finish_date']
