@@ -3,7 +3,7 @@
 My practices about the following tutorials:
 
 - [Django 1.9 Project tutorial](https://docs.djangoproject.com/en/1.9/intro/).
-- [Django Rest Framework 3.6.4 tutorial Quickstart](http://www.django-rest-framework.org/tutorial/quickstart/).
+- [Django Rest Framework 3.9.1 tutorial Quickstart](http://www.django-rest-framework.org/tutorial/quickstart/).
 - [Desarrollo de un API REST con Django REST framework, tutorial 1: Serialización](http://jonathanpumares.com/desarrollo-de-un-api-rest-con-django-rest-framework-tutorial-1-serializacion/).
 
 ## Installation
@@ -346,5 +346,5 @@ ValidationError: {'email': [u'Enter a valid email address.'], 'created': [u'This
 # Reference
 
 - [Django 1.9 Project tutorial](https://docs.djangoproject.com/en/1.9/intro/).
-- [Django Rest Framework 3.6.4 tutorial Quickstart](http://www.django-rest-framework.org/tutorial/quickstart/).
+- [Django Rest Framework 3.9.1 tutorial Quickstart](http://www.django-rest-framework.org/tutorial/quickstart/).
 - [Desarrollo de un API REST con Django REST framework, tutorial 1: Serialización](http://jonathanpumares.com/desarrollo-de-un-api-rest-con-django-rest-framework-tutorial-1-serializacion/).
