@@ -1,4 +1,4 @@
-Django==1.11.28
+Django==4.2.18
 
 # Django Rest Framework
 certifi==2022.12.7
