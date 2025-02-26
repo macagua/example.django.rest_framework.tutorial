@@ -9,6 +9,6 @@ Markdown==2.6.11
 httpie==3.2.3
 idna==2.6
 Pillow==10.3.0
-Pygments==2.2.0
+Pygments==2.15.0
 requests==2.20.0
 urllib3==1.26.19
